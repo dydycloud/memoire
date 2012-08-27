@@ -1,0 +1,90 @@
+detect_relations: true
+# Commande :
+Commandes:
+  columns:
+    suivi_commandes:
+      type: bigint(20)
+      notnull: true
+      primary: true
+      autoincrement: true
+    montant:
+      type: bigint(20)
+      notnull: true
+    pseudo:
+      type: string(255)
+      notnull: true
+    statut:
+      type: enum
+      values: ['Livraison en cours','Livraison ok']
+      notnull: true
+    detail_id:
+      type: bigint(20)
+      notnull: true
+  
+
+# details commandes :
+Details_commandes:
+  columns:
+    detail_id:
+      type: bigint(20)
+      primary: true
+      autoincrement: true
+    article:
+      type: string(255)
+    quantite:
+      type: bigint(20)
+    prix_uni:
+      type: bigint(20)
+
+# livres :
+Livres:
+  columns:
+    id_livre:
+      type: bigint(20)
+      primary: true
+      autoincrement: true
+    auteur:
+      type: string(255)
+    date_parution:
+      type: string(255)
+    edition:
+      type: string(255)
+    titre:
+      type: string(255)
+    description:
+      type: text
+    categorie:
+      type: string(255)
+    prix:
+      type: float
+    photo:
+      type: string(200)
+    date:
+      type: timestamp
+
+# membres :
+Membres:
+  columns:
+    id_membres:
+      type: bigint(20)
+      autoincrement: true
+      primary: true
+    pseudo:
+      type: string(255)
+    mdp:
+      type: string(255)
+    nom:
+      type: string(255)
+    prenom:
+      type: string(255)
+    email:
+      type: string(255)
+    sexe:
+      type: string(1)
+    ville:
+      type: string(255)
+    cp:
+      type: bigint(20)
+    adresse:
+      type: string(255)
+   

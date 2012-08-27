@@ -1,0 +1,695 @@
+[21-Nov-2011 13:41:15] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoi in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:41:19] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoi in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:41:21] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/livre_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoi in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:42:06] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:42:07] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/livre_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:42:15] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT m.id_mem...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query.php(281): Doctrine_Query_Abstract->execute(Array, NULL)
+#5 /home/bemonkey/public_html/ in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:42:56] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/livre_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:42:58] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:43:05] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT m.id_mem...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query.php(281): Doctrine_Query_Abstract->execute(Array, NULL)
+#5 /home/bemonkey/public_html/ in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:43:30] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:43:32] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:45:45] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:45:48] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:46:01] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:46:03] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:46:26] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:46:28] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:46:28] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:46:28] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:46:28] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:46:31] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:47:00] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:47:08] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT c.id_cat...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/recherche_controller.php(44): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/mem in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:47:09] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT a.id_aut...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/recherche_controller.php(14): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/mem in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:47:10] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/livre_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:47:19] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT m.id_mem...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query.php(281): Doctrine_Query_Abstract->execute(Array, NULL)
+#5 /home/bemonkey/public_html/ in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:49:41] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'. Failing Query: "DROP DATABASE lire2"' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:1082
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1025): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Mysql), 'DROP DATABASE l...')
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Export.php(60): Doctrine_Connection->execute('DROP DATABASE l...')
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1472): Doctrine_Export->dropDatabase('lire2')
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Manager.php(707): Doctrine_Connection->dropDatabase()
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/ in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 1082
+[21-Nov-2011 13:49:47] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'. Failing Query: "DROP DATABASE lire2"' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:1082
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1025): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Mysql), 'DROP DATABASE l...')
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Export.php(60): Doctrine_Connection->execute('DROP DATABASE l...')
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1472): Doctrine_Export->dropDatabase('lire2')
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Manager.php(707): Doctrine_Connection->dropDatabase()
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/ in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 1082
+[21-Nov-2011 13:50:37] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'. Failing Query: "DROP DATABASE lire2"' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:1082
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1025): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Mysql), 'DROP DATABASE l...')
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Export.php(60): Doctrine_Connection->execute('DROP DATABASE l...')
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1472): Doctrine_Export->dropDatabase('lire2')
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Manager.php(707): Doctrine_Connection->dropDatabase()
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/ in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 1082
+[21-Nov-2011 13:50:47] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'. Failing Query: "DROP DATABASE lire2"' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:1082
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1025): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Mysql), 'DROP DATABASE l...')
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Export.php(60): Doctrine_Connection->execute('DROP DATABASE l...')
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1472): Doctrine_Export->dropDatabase('lire2')
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Manager.php(707): Doctrine_Connection->dropDatabase()
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/ in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 1082
+[21-Nov-2011 13:51:51] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'. Failing Query: "DROP DATABASE lire2"' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:1082
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1025): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Mysql), 'DROP DATABASE l...')
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Export.php(60): Doctrine_Connection->execute('DROP DATABASE l...')
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1472): Doctrine_Export->dropDatabase('lire2')
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Manager.php(707): Doctrine_Connection->dropDatabase()
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/ in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 1082
+[21-Nov-2011 13:52:00] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:52:03] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:52:08] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:52:13] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:52:53] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:52:55] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:52:56] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:52:56] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:52:56] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:52:56] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:52:57] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:52:57] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:53:01] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:53:39] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:57:58] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:57:58] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:57:58] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:58:10] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:58:12] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:58:15] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/livre_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 13:58:22] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/livre_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:00:08] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'. Failing Query: "DROP DATABASE lire2"' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:1082
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1025): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Mysql), 'DROP DATABASE l...')
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Export.php(60): Doctrine_Connection->execute('DROP DATABASE l...')
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1472): Doctrine_Export->dropDatabase('lire2')
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Manager.php(707): Doctrine_Connection->dropDatabase()
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/ in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 1082
+[21-Nov-2011 14:00:11] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'. Failing Query: "DROP DATABASE lire2"' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:1082
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1025): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Mysql), 'DROP DATABASE l...')
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Export.php(60): Doctrine_Connection->execute('DROP DATABASE l...')
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1472): Doctrine_Export->dropDatabase('lire2')
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Manager.php(707): Doctrine_Connection->dropDatabase()
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/ in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 1082
+[21-Nov-2011 14:00:16] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'. Failing Query: "DROP DATABASE lire2"' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:1082
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1025): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Mysql), 'DROP DATABASE l...')
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Export.php(60): Doctrine_Connection->execute('DROP DATABASE l...')
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1472): Doctrine_Export->dropDatabase('lire2')
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Manager.php(707): Doctrine_Connection->dropDatabase()
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/ in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 1082
+[21-Nov-2011 14:00:58] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user 'bemonkey_cloud'@'localhost' to database 'lire2'. Failing Query: "DROP DATABASE lire2"' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:1082
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1025): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Mysql), 'DROP DATABASE l...')
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Export.php(60): Doctrine_Connection->execute('DROP DATABASE l...')
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1472): Doctrine_Export->dropDatabase('lire2')
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Manager.php(707): Doctrine_Connection->dropDatabase()
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/ in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 1082
+[21-Nov-2011 14:03:19] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Export.php(60): Doctrine_Connection->execute('SET FOREIGN_KEY...')
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1472): Doctrine_Export->dropDatabase('lire2')
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Manager.php(707): Doctrine_Connection->dropDatabase()
+#5 /home/bemonkey/public_html/travaux/memoire/lib/vendor/d in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:03:21] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/livre_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoi in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:03:23] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoi in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:03:30] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/livre_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoi in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:03:35] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT c.id_cat...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/recherche_controller.php(44): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/m in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:03:36] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT a.id_aut...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/recherche_controller.php(14): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/m in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:03:37] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT e.id_edi...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/recherche_controller.php(75): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/m in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:06:57] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT e.id_edi...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/recherche_controller.php(75): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/m in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:06:59] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoi in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:07:01] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/livre_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoi in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:11:10] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoi in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:11:12] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/livre_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoi in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:11:33] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/livre_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoi in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:11:34] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/livre_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoi in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:11:34] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/livre_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoi in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:11:34] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/livre_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoi in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:11:35] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoi in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[21-Nov-2011 14:12:04] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'bemonkey_cloud'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Export.php(60): Doctrine_Connection->execute('SET FOREIGN_KEY...')
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1472): Doctrine_Export->dropDatabase('lire2')
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Manager.php(707): Doctrine_Connection->dropDatabase()
+#5 /home/bemonkey/public_html/travaux/memoire/lib/vendor/d in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[22-Nov-2011 13:13:56] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/controller/membres/panier_controller.php on line 84
+[22-Nov-2011 13:14:04] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/controller/membres/panier_controller.php on line 84
+[22-Nov-2011 13:15:10] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/controller/membres/panier_controller.php on line 84
+[22-Nov-2011 13:16:03] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/controller/membres/panier_controller.php on line 84
+[22-Nov-2011 13:16:10] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/controller/membres/panier_controller.php on line 84
+[22-Nov-2011 13:16:20] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/controller/membres/panier_controller.php on line 84
+[22-Nov-2011 13:16:25] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/controller/membres/panier_controller.php on line 84
+[22-Nov-2011 13:16:28] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/controller/membres/panier_controller.php on line 84
+[22-Nov-2011 13:16:34] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/controller/membres/panier_controller.php on line 84
+[22-Nov-2011 13:17:01] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/controller/membres/panier_controller.php on line 84
+[22-Nov-2011 13:17:06] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/controller/membres/panier_controller.php on line 84
+[22-Nov-2011 13:17:09] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/controller/membres/panier_controller.php on line 84
+[22-Nov-2011 13:26:23] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'titre' in 'field list'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:1082
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Statement.php(269): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1042): Doctrine_Connection_Statement->execute(Array)
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(687): Doctrine_Connection->exec('INSERT INTO det...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/UnitOfWork.php(647): Doctrine_Connection->insert(Object(Details_commandesTable), Array)
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/UnitOf in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 1082
+[23-Nov-2011 09:44:44] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'titre' in 'field list'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:1082
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Statement.php(269): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1042): Doctrine_Connection_Statement->execute(Array)
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(687): Doctrine_Connection->exec('INSERT INTO det...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/UnitOfWork.php(647): Doctrine_Connection->insert(Object(Details_commandesTable), Array)
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/UnitOf in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 1082
+[23-Nov-2011 09:45:14] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'titre' in 'field list'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:1082
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Statement.php(269): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1042): Doctrine_Connection_Statement->execute(Array)
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(687): Doctrine_Connection->exec('INSERT INTO det...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/UnitOfWork.php(647): Doctrine_Connection->insert(Object(Details_commandesTable), Array)
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/UnitOf in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 1082
+[23-Nov-2011 09:47:58] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT c.suivi_...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/membres/profil_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoir in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[23-Nov-2011 09:48:04] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire/web/ind in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[23-Nov-2011 09:50:21] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire/web/ind in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[23-Nov-2011 09:50:24] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT l.id_liv...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/bemonkey/public_html/travaux/memoire/web/controller/index_controller.php(10): Doctrine_Query_Abstract->execute()
+#5 /home/bemonkey/public_html/travaux/memoire/web/ind in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 474
+[23-Nov-2011 09:51:38] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'titre' in 'field list'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:1082
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Statement.php(269): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1042): Doctrine_Connection_Statement->execute(Array)
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(687): Doctrine_Connection->exec('INSERT INTO det...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/UnitOfWork.php(647): Doctrine_Connection->insert(Object(Details_commandesTable), Array)
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/UnitOf in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 1082
+[23-Nov-2011 09:53:16] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'titre' in 'field list'' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php:1082
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/Statement.php(269): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1042): Doctrine_Connection_Statement->execute(Array)
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(687): Doctrine_Connection->exec('INSERT INTO det...', Array)
+#3 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/UnitOfWork.php(647): Doctrine_Connection->insert(Object(Details_commandesTable), Array)
+#4 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/UnitOf in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php on line 1082
+[23-Nov-2011 13:54:07] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 12
+[23-Nov-2011 13:54:12] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 12
+[23-Nov-2011 13:54:15] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 12
+[23-Nov-2011 13:54:19] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 12
+[23-Nov-2011 13:54:22] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 12
+[23-Nov-2011 13:54:23] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 12
+[23-Nov-2011 13:54:37] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 12
+[23-Nov-2011 13:54:38] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 12
+[23-Nov-2011 13:54:40] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 12
+[23-Nov-2011 13:54:41] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 12
+[23-Nov-2011 13:54:57] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 12
+[23-Nov-2011 13:54:59] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 12
+[23-Nov-2011 13:55:02] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 12
+[23-Nov-2011 13:55:03] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 12
+[23-Nov-2011 13:55:04] PHP Parse error:  syntax error, unexpected '}' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 12
+[23-Nov-2011 13:55:27] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 3
+[23-Nov-2011 13:55:28] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 3
+[23-Nov-2011 13:55:30] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 3
+[23-Nov-2011 13:55:31] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bemonkey/public_html/travaux/memoire/web/views/rechercheEdit_view.php on line 3
+[24-Nov-2011 15:16:24] PHP Fatal error:  Uncaught exception 'Doctrine_Validator_Exception' with message 'Validation failed in class Livres
+
+  1 field had validation error:
+
+    * 1 validator failed on id_edition (length)
+' in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Transaction.php:265
+Stack trace:
+#0 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection.php(1395): Doctrine_Transaction->commit(NULL)
+#1 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Connection/UnitOfWork.php(148): Doctrine_Connection->commit()
+#2 /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Record.php(1718): Doctrine_Connection_UnitOfWork->saveGraph(Object(Livres))
+#3 /home/bemonkey/public_html/travaux/memoire/web/controller/admin/ajoutLivre_controller.php(97): Doctrine_Record->save()
+#4 /home/bemonkey/public_html/travaux/memoire/web/index.php(100): include_once('/home/bemonkey/...')
+#5 {main}
+  thrown in /home/bemonkey/public_html/travaux/memoire/lib/vendor/doctrine/Doctrine/Transaction.php on line 265
